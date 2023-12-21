@@ -1,1 +1,16 @@
+Let’s Breakdown the code and understand the elements of HTML Code:
 
+Year Display:- Inside this “<div class=”year”>” div the year 2023 is displayed using combination of nested `<span>` elements.
+Balloons:- A div `<div class = “balloon”>` that suggesting a graphical representation of balloons. You’ll see styling of this div in stylesheet.
+Fireworks Displays:- You will the classes names as firework, and id named as `firework1`, `firework2`,`firework3`. These three sets of fireworks displays, each enclosed in a <div> with the class “firework” and a unique ID.
+Message:– A div class name as “msg” contains the text “Happy New Year”
+
+
+Let’s Breakdown the CSS Code and understand the main components of the code:-
+
+Font Import:- The @import rule is used to import two Google Fonts.You can import the fonts as per your need using this rule in CSS.
+Global Styles:- Global styles in CSS are (*, *:after,*:before) set box-sizing to border-box for all elements, ensuring that padding and border are included in the elements total width and height.
+Balloon Animation:- It is styled to resemble a balloon and positioned absolutely. It is animated to move from the right to the center and then move upward.
+KeyFrame Animations:- The keyframes animations are defined here are (message, y1colorful, y2colorful, y3colorful, y4colorful, old_animation, new_animation, balloon_animation, show_fireworks, fire) to create the dynamic effects and movements for elements.
+Message(`msg`) :- This Message element has various styles are applied as you can see in code itself including font family, size, weight, color, and positioning. The Opacity is initially set to 0, and an animation is defines to gradually fade in the message and move it to upward.
+These are the key components that work together and provides you an animated and engaging New Year Webpage.
